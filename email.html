@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="animated fadeIn">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="dog.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="animate.css">
+    <title>Personal WebSite</title>
+  </head>
+<body>
+  <div style ="visibility:hidden"> id="music"><embed src="audio.mp3" autostart=true loop=true></div>
+  <div class="box">
+    <img src="profile.jpg" alt="" class="box-img">
+    <h1>email</h1>
+    <h5>Project Email</h5>
+    <p>Send some cool coding ideas or projects my way.</p>
+    <p>Email:spacesnekdev@gmail.com</p>
+    <ul>
+      <li><a href="index.html"><i class="fas fa-caret-square-left" aria-hidden="true"></i></a></li>
+    </ul>
+  </div>
+  <script>
+  // epic ways of keeping big source code big secret
+  // unless you inspect element lol
+  document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+  }, false);
+
+  document.onkeydown = function(e) {
+      if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117 || e.keycode === 17 || e.keycode === 85)) {
+          return false;
+      }
+      return false;
+  };
+</script>
+</body>
+</html>
