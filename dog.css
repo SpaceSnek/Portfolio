@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  background: url(source.gif);
+  background-image: linear-gradient(-45deg, #89847e, #65625e);
   background-size: cover;
 }
 .box{
